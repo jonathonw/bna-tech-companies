@@ -1,0 +1,20 @@
+---
+title: Contributing
+layout: default
+---
+
+<h1>How to contribute</h1>
+<p class="lead">TL;DR: Fork <a href="https://github.com/{{ site.github_repository }}">the bna-tech-companies repo on Github</a>, add your company, and submit a pull request.</p>
+
+<h2>The instructions</h2>
+<h3>Adding a company to the list</h3>
+<p>To add your company (or a company you know of; feel free to add any company that's not already on the list):</p>
+<ol>
+<li>Fork <a href="https://github.com/{{ site.github_repository }}">the bna-tech-companies repo on Github.</a></li>
+<li>In <a href="https://github.com/{{ site.github_repository }}/_data/companies">/_data/companies</a>, pick a JSON file to use as a template (for example, <a href="https://github.com/{{ site.github_repository }}/_data/companies/isis.json">isis.json</a>).  Create a copy of that file in the same directory, with a name reflecting your company.</li>
+<li>Enter your company's information into each field in the JSON file.  Take note of the "locations" field:  this is an array of ZIP codes.</li>
+<li>Commit your new JSON file, and push to your fork at Github.</li>
+<li>Open a <a href="https://github.com/{{ site.github_repository }}/pulls">pull request at {{site.github_repository}}</a>.</li>
+<li>That's it!  If your information is accurate, your pull request should be merged promptly and your company will appear in the list as soon as Github Pages updates.</li>
+</ol>
+
